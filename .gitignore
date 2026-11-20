@@ -275,6 +275,7 @@ $RECYCLE.BIN/
 yalc.lock
 
 # Test & production artifacts
+.vitest
 .vitest-attachments/
 __screenshots__/
 fixtures/*/dist/
@@ -287,6 +288,15 @@ blob-report/
 *.local
 *.local.*
 *.local/
+
+# Skill Test
+skills/*/_test/out/
+
+# Spec drafts, ticket drafts
+.scratch/
+
+# Agent worktree
+.claude/worktrees/
 
 # Custom Projects
 .output
